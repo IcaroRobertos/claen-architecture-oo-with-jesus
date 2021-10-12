@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@entities/*": [
+        "src/core/entities/*"
+      ],
+      "@use_cases/*": [
+        "src/core/use_cases/*"
+      ],
+      "@interfaces/*": [
+        "src/core/interfaces/*"
+      ],
+      "@mongodb/*": [
+        "src/infrastructure/gateways/database/mongodb/*"
+      ],
+      "@repository/*": [
+        "src/infrastructure/repository/*"
+      ],
+      "@controllers/*": [
+        "src/infrastructure/ports/http/controllers/*"
+      ],
+      "@routes/*": [
+        "src/infrastructure/ports/http/routes/*"
+      ]
+    }
+  }
+}
